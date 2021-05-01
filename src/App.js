@@ -27,6 +27,7 @@ const App = () => {
 
 	return (
 	<>
+		alert("El contador solo inicia cuando se pone el salto en 1. :(");
 		<h1>Contador</h1>
 		<section>
 			<div>
@@ -42,7 +43,7 @@ const App = () => {
 				<div>
 					<button onClick={() => setCount2(count2 + 1)}>+1</button>
 					<button onClick={() => setCount2(count2 - 1)}>-1</button>
-					<button onClick={() => setCount(0)}>Reset</button>
+					<button onClick={() => setCount2(0)}>Reset</button>
 				</div>
 			</div>
 		</section>
