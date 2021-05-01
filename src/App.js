@@ -24,7 +24,7 @@ const App = () => {
 	const [count, setCount] = useState(0);
 
 	const [count2, setCount2] = useState(0);
-	alert("NOTA: El contador solo inicia cuando se pone el salto en 1. *sad reactions only*");
+	alert("NOTA: El contador solo inicia cuando se pone un valor en el salto. *sad reactions only*");
 	return (
 	<>
 		<h1>Contador</h1>
