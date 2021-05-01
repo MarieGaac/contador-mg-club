@@ -24,10 +24,9 @@ const App = () => {
 	const [count, setCount] = useState(0);
 
 	const [count2, setCount2] = useState(0);
-
+	alert("El contador solo inicia cuando se pone el salto en 1.");
 	return (
 	<>
-		alert("El contador solo inicia cuando se pone el salto en 1.");
 		<h1>Contador</h1>
 		<section>
 			<div>
