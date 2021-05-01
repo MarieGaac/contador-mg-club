@@ -27,7 +27,7 @@ const App = () => {
 
 	return (
 	<>
-		alert("El contador solo inicia cuando se pone el salto en 1. :(");
+		alert("El contador solo inicia cuando se pone el salto en 1.");
 		<h1>Contador</h1>
 		<section>
 			<div>
